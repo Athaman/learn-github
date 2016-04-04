@@ -1,0 +1,46 @@
+How did viewing an updated file vs its original with diff help locate a bug?
+
+Using the diff command highlighted the sections of the file that had been edited.
+Since the original file was over 1000 lines, and only about 20 had been changed,
+it meant that I only had to inspect ~20 lines of text for errors as opposed to
+the full 1000. This is a huge gain and would be even more significant in larger
+files. I also tried using windows to compare the files and found that the linux
+command was more readable.
+
+How could having easy access to the entire history of a file make me a better
+programmer in the long run?
+
+Having access to all the file versions means that if at any point in time something
+stops working you can compare it to an earlier, working version to resolve any
+errors. This also gives you the confidence to change code without great fear
+of introducing new mistakes, safe in the knowledge that you can simply revert
+back to an earlier version if the updates break your system.
+
+pros and cons of manual commits?
+
+I'm liable to forget to commit for like a thousand lines then remember. So that's
+a con. Pro would be that it means i won't end up with half finished logics in a
+commit or overriding an old version with a present bug.
+
+Why do some version controls track multiple files together?
+
+Git is largely designed for programming and a lot of programming involves using
+multiple files that interact together. So keeping track of those changes in cohesion
+is important to be able to revert back to any stage of the development. Google docs
+and other systems that track individual files are targeted for more document based
+purposes that are largely standalone.
+
+using git log and git diff to review files?
+
+git log will show you each of the edits done to a repository. you can then compare
+any two versions of the repository using git diff to find out what alterations were
+made.
+
+How might using version control make you more confident to make changes that could break something?
+
+like a giant ctrl z. no matter how many changes you make you can just go back to the way it was.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I intend to use git for my programming endeavours. a large portion of it will be
+used in relation to github as an online port folio to show prospective employers.
