@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Remote repositories would be great for collaborating as a team, sharing your content with a broader audience, or just
+to use as portability across devices. Local storage would be better for privacy and security as well as to avoid confusion 
+while a new project is in development and not release ready.
