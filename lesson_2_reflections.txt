@@ -7,3 +7,20 @@ How is the staging area different from the working directory and the repository?
 The staging area gives us an opportunity to test what changes we've made without actually
 committing them. It provides us an opportunity to consider the package before
 we commit the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+If git diff --staged has more than one change displayed than you've added too many
+changes to the staging area and should remove one to keep it to 1 logical change per commit
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+branches allow for multiple versions of a dev to be maintained simultaneously
+such as different languages or a server distro for linux etc.
+
+How do the diagrams help you visualize the branch structure?
+visual diagrams help to understand the tree graph nature of branches (hence i
+suppose why they're called branches)
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+By merging two branches you should end up with all the alterations that have been made to any of the files
+since the branches were originally forked. including either deletions or additions.
